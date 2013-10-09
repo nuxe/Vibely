@@ -20,3 +20,5 @@ D | 3 | 4 | 4 | 0 | 11 |
 And in Tweet[A][B] I store the value of how many words are common in the tweets A&B(I do this by running a set intersection algorithm on the tweets). So the tweet that eventually gets displayed is the tweet with maximum no. of intersections with the rest of the tweets(max. relevant information) (tweet B in this case).
 
 And then I go on to display the tweet, the user who posted the tweet, a map with your location and where the tweet originated from.
+
+##### PS- All the magic happens in TableViewController.m
